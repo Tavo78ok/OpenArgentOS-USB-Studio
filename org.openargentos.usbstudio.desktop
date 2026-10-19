@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=OpenArgentOS USB Studio
+Comment=Grabar ISO, formatear y reparar pendrives
+Exec=python3 %k
+# Si instalás el script en /usr/local/bin, cambiá Exec a:
+# Exec=openargentos-usb-studio
+Icon=drive-removable-media-usb
+Terminal=false
+Type=Application
+Categories=System;Utility;
+Keywords=USB;ISO;pendrive;format;dd;
+StartupNotify=true
+StartupWMClass=org.openargentos.usbstudio

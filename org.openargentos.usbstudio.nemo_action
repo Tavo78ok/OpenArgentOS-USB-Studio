@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Grabar con USB Studio
+Comment=Abrir esta imagen ISO en OpenArgentOS USB Studio
+Exec=openargentos-usb-studio %F
+Icon-Name=drive-removable-media-usb
+Selection=s
+Extensions=iso;ISO;
+Quote=double
