@@ -6,6 +6,8 @@ GTK 4 + libadwaita. Pensada para el escritorio de OpenArgentOS (Cinnamon / Nemo)
 
 Versión actual: **1.1.1**
 
+<img width="1440" height="900" alt="Captura de pantalla de 2026-10-19 16-48-57" src="https://github.com/user-attachments/assets/bae28a39-a6fe-478d-8bb0-74e3fbcc2ac5" />
+
 ## Qué hace
 
 - **Grabar ISO.** Escribe una imagen en el pendrive con `dd`, barra de progreso real y una sola solicitud de contraseña.
