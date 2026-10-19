@@ -21,11 +21,11 @@ Todas las operaciones destructivas piden confirmación. Borrar, formatear o grab
 
 ## Capturas
 
-Pendiente de agregar capturas del escritorio OpenArgentOS:
+<img width="1440" height="900" alt="Captura de pantalla de 2026-10-19 16-57-32" src="https://github.com/user-attachments/assets/3e6df1b2-0a47-44dc-b03e-db5ce793af8a" />
 
-- `docs/screenshot-grabar.png`
-- `docs/screenshot-formatear.png`
-- `docs/screenshot-reparar.png`
+<img width="1440" height="900" alt="Captura de pantalla de 2026-10-19 16-57-42" src="https://github.com/user-attachments/assets/2894e483-9a22-423a-8efd-aa58851ea36c" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-10-19 16-57-55" src="https://github.com/user-attachments/assets/2db65908-826c-494f-a9b4-4e672d1c9431" />
 
 ## Requisitos
 
