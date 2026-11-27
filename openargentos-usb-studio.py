@@ -1014,6 +1014,7 @@ class USBStudioApp(Adw.Application):
             flags=Gio.ApplicationFlags.HANDLES_OPEN
             | Gio.ApplicationFlags.HANDLES_COMMAND_LINE,
         )
+        Adw.StyleManager.get_default().set_color_scheme(Adw.ColorScheme.FORCE_DARK)
         self._pending_iso = None
         self._window = None
 
@@ -1052,5 +1053,7 @@ class USBStudioApp(Adw.Application):
 
 
 if __name__ == "__main__":
+    GLib.set_prgname("openargentos-usb-studio")
+    GLib.set_application_name("OpenArgentOS USB Studio")
     app = USBStudioApp()
     app.run(None)
