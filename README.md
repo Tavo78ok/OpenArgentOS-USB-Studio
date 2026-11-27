@@ -4,7 +4,7 @@ Herramienta gráfica del ecosistema **OpenArgentOS** para preparar, grabar y rec
 
 GTK 4 + libadwaita. Pensada para el escritorio de OpenArgentOS (Cinnamon / Nemo), y también usable en Debian, Ubuntu y derivados.
 
-Versión actual: **1.1.1**
+Versión actual: **1.1.2**
 
 <img width="1440" height="900" alt="Captura de pantalla de 2026-10-19 16-48-57" src="https://github.com/user-attachments/assets/bae28a39-a6fe-478d-8bb0-74e3fbcc2ac5" />
 
@@ -51,7 +51,7 @@ sudo apt install python3 python3-gi gir1.2-gtk-4.0 gir1.2-adw-1 \
 Recomendado en OpenArgentOS. Integra el lanzador y el menú contextual de Nemo.
 
 ```bash
-sudo apt install ./openargentos-usb-studio_1.1.0_all.deb
+sudo apt install ./openargentos-usb-studio_1.1.2_all.deb
 ```
 
 Si faltan dependencias:
@@ -77,14 +77,14 @@ nemo -q
 Portable. Usa GTK 4, libadwaita y Python del sistema (no los empaqueta).
 
 ```bash
-chmod +x OpenArgentOS-USB-Studio-1.1.1-x86_64.AppImage
-./OpenArgentOS-USB-Studio-1.1.1-x86_64.AppImage
+chmod +x OpenArgentOS-USB-Studio-1.1.2-x86_64.AppImage
+./OpenArgentOS-USB-Studio-1.1.2-x86_64.AppImage
 ```
 
 También acepta una ISO:
 
 ```bash
-./OpenArgentOS-USB-Studio-1.1.1-x86_64.AppImage /ruta/imagen.iso
+./OpenArgentOS-USB-Studio-1.1.2-x86_64.AppImage /ruta/imagen.iso
 ```
 
 El AppImage no instala solo el ítem de Nemo. Para el menú contextual del escritorio, usá el `.deb`.
@@ -113,10 +113,10 @@ Desde la raíz del repositorio, con `openargentos-usb-studio.py` al lado de los 
 chmod +x build-deb.sh build-appimage.sh openargentos-usb-studio.py
 
 ./build-deb.sh
-# → openargentos-usb-studio_1.1.0_all.deb
+# → openargentos-usb-studio_1.1.2_all.deb
 
 ./build-appimage.sh
-# → OpenArgentOS-USB-Studio-1.1.1-x86_64.AppImage
+# → OpenArgentOS-USB-Studio-1.1.2-x86_64.AppImage
 ```
 
 `build-appimage.sh` descarga `appimagetool` si no está instalado (hace falta `wget` o `curl`).
