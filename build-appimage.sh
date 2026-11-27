@@ -11,7 +11,7 @@ set -euo pipefail
 APP_NAME="OpenArgentOS-USB-Studio"
 APP_BIN="openargentos-usb-studio"
 APP_ID="org.openargentos.usbstudio"
-VERSION="1.1.1"
+VERSION="1.1.2"
 ARCH="$(uname -m)"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

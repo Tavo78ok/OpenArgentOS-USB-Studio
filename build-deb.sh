@@ -8,7 +8,7 @@ set -euo pipefail
 
 APP_NAME="openargentos-usb-studio"
 APP_ID="org.openargentos.usbstudio"
-VERSION="1.1.0"
+VERSION="1.1.2"
 ARCH="all"
 MAINTAINER="OpenArgentOS <soporte@openargentos.org>"
 DESCRIPTION="Herramienta gráfica para grabar ISO, formatear y reparar pendrives USB"
